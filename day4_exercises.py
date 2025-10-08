@@ -1,6 +1,6 @@
 
 # Single line comment
-letter = 'P'                # A string could be a single character or a bunch of texts
+letter = 'h'                # A string could be a single character or a bunch of texts
 print(letter)               # P
 print(len(letter))          # 1
 greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
@@ -168,7 +168,7 @@ print(challenge.find('th')) # 0
 challenge = 'Thirty'
 print(challenge.isdigit()) # False
 challenge = '30'
-print(challenge.digit())   # True
+print(challenge.isdigit())   # True
 
 # isdecimal():Checks decimal characters
 
